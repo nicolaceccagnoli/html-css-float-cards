@@ -1,0 +1,19 @@
+/* 
+    RESET
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* 
+    MAIN
+*/
+
+h1{
+    color: rgb(229, 49, 112);
+    text-align: center;
+}
