@@ -8,12 +8,34 @@
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
 }
+/* 
+    GENERAL
+*/
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.container::after{
+    content:"";
+    display: table;
+    clear: both;
+}
 /* 
     MAIN
 */
 
+div>p, div>h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
 h1{
     color: rgb(229, 49, 112);
-    text-align: center;
+}
+
+p{
+    margin-bottom: 40px;
 }
