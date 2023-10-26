@@ -26,6 +26,13 @@ p{
     margin-bottom: 40px;
 }
 
+.info > div {
+    margin: 5px 0;
+}
+
+h4{
+    margin-top: -10px;
+}
 /* 
     CARDS
 */
