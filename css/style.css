@@ -8,8 +8,26 @@
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
 }
+
 /* 
-    GENERAL
+    CONTAINER
+*/
+
+p, h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1{
+    color: rgb(229, 49, 112);
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+/* 
+    CARDS
 */
 
 .container{
@@ -22,9 +40,6 @@
     display: table;
     clear: both;
 }
-
-/* calc((100% / 3) - ((15px / 3)*2)) */
-
 
 .card{
     width: calc((100% / 3) - 20px);
@@ -50,27 +65,6 @@ a{
 .info{
     padding: 25px;
 }
-
-/* 
-    MAIN
-*/
-
-p, h1{
-    text-align: center;
-    margin-top: 40px;
-}
-
-h1{
-    color: rgb(229, 49, 112);
-}
-
-p{
-    margin-bottom: 40px;
-}
-
-/* 
-    CARDS
-*/
 
 .laura, .roberto{
     margin: 0 30px;
