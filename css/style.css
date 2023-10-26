@@ -15,19 +15,45 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    
 }
 
-.container::after{
+.cards-container::after{
     content:"";
     display: table;
     clear: both;
+}
+/* calc((100% / 3) - ((15px / 3)*2)) */
+
+
+.card{
+    width: calc((100% / 3) - 40px);
+    height: 100px;
+    float: left;
+    background-color: black;
+    color: white;
+    margin: 20px;;
+}
+
+img{
+    max-height: 100px ;
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.info{
+    padding: 25px;
 }
 /* 
     MAIN
 */
 
-div>p, div>h1{
+p, h1{
     text-align: center;
     margin-top: 40px;
 }
@@ -39,3 +65,8 @@ h1{
 p{
     margin-bottom: 40px;
 }
+
+/* 
+    CARDS
+*/
+
