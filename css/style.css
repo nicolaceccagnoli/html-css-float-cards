@@ -22,6 +22,7 @@
     display: table;
     clear: both;
 }
+
 /* calc((100% / 3) - ((15px / 3)*2)) */
 
 
@@ -38,7 +39,7 @@ img{
     max-height: 100px ;
     float: left;
     display: block;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 a{
@@ -49,6 +50,7 @@ a{
 .info{
     padding: 25px;
 }
+
 /* 
     MAIN
 */
@@ -69,4 +71,8 @@ p{
 /* 
     CARDS
 */
+
+.laura, .roberto{
+    margin-left: 0 15px;
+}
 
